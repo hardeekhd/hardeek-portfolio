@@ -2493,10 +2493,10 @@ a {
     display: none;
   }
 
-  .mobile-menu-btn {
+  /* .mobile-menu-btn {
     display: block;
     font-size: 1.5rem;
-  }
+  } */
 
   .social-icons {
     display: none;
