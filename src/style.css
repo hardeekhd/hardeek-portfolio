@@ -3346,10 +3346,17 @@ a {
 @media (max-width: 380px) {
   html, body {
     font-size: 14px;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+  .header {
+    width: 100vw;
   }
 
   .header-container {
     padding: 0 1rem;
+    width: 100vw;
   }
 
   .logo {
@@ -3364,10 +3371,21 @@ a {
     display: block;
   }
 
+  .mobile-menu {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .about-section {
+    padding: 2rem 1rem;
+    width: 100vw;
+  }
+
   .about-container {
     flex-direction: column;
     gap: 2rem;
     padding: 0 1rem;
+    width: 100%;
   }
 
   .greeting {
@@ -3394,6 +3412,7 @@ a {
 
   .projects-section {
     padding: 2.5rem 1rem;
+    width: 100vw;
   }
 
   .projects-header h2 {
@@ -3408,6 +3427,11 @@ a {
     grid-template-columns: 1fr;
   }
 
+  .skills-section {
+    width: 100vw;
+    padding: 3rem 1rem;
+  }
+
   .skills-header h2 {
     font-size: 1.75rem;
   }
@@ -3419,6 +3443,11 @@ a {
 
   .skill-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .certifications-section {
+    padding: 3rem 1rem;
+    width: 100vw;
   }
 
   .cert-grid {
@@ -3435,6 +3464,11 @@ a {
 
   .cert-card p {
     font-size: 0.85rem;
+  }
+
+  #achievements {
+    padding: 3rem 1rem;
+    width: 100vw;
   }
 
   #achievements ul {
