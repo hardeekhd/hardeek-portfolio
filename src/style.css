@@ -2290,6 +2290,10 @@ html {
   0%, 100% { opacity: 1; }
   50% { opacity: 0; }
 }
+
+/* ----------------------------- */
+/* style.css  */
+/* ----------------------------- */
 :root {
   --color-accent: #8245ec;
   --color-background: #0b0b1d;
@@ -2465,128 +2469,6 @@ a {
 .mobile-menu .social-icons {
   margin-top: 30px;
 }
-
-/* ----------------------------- */
-/* ✅ Mobile: 300px to 600px (focus on 360px) */
-/* ----------------------------- */
-
-@media screen and (max-width: 600px) {
-  .header {
-    height: 4rem;
-  }
-
-  .header-container {
-    padding: 0 0.8rem;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .logo {
-    font-size: 1.1rem;
-    max-width: 70%;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-
-  .nav {
-    display: none;
-  }
-
-  /* .mobile-menu-btn {
-    display: block;
-    font-size: 1.5rem;
-  } */
-
-  .social-icons {
-    display: none;
-  }
-
-  .mobile-menu .social-icons {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    margin-top: 2rem;
-  }
-
-  .mobile-menu {
-    padding: 2rem;
-    gap: 1.5rem;
-  }
-
-  .mobile-menu-item {
-    font-size: 1.3rem;
-    margin: 15px 0;
-    text-align: center;
-    width: 100%;
-  }
-}
-
-/* ----------------------------- */
-/* ✅ Tablets: 601px to 1023px */
-/* ----------------------------- */
-
-@media screen and (min-width: 601px) and (max-width: 1023px) {
-  .header-container {
-    padding: 0 1.5rem;
-  }
-
-  .logo {
-    font-size: 1.3rem;
-  }
-
-  .nav {
-    gap: 1.5rem;
-    font-size: 0.95rem;
-  }
-
-  .social-icons {
-    gap: 0.8rem;
-  }
-}
-
-/* ----------------------------- */
-/* ✅ Small Desktops: 1024px to 1279px */
-/* ----------------------------- */
-
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .header-container {
-    padding: 0 2rem;
-  }
-
-  .logo {
-    font-size: 1.4rem;
-  }
-
-  .nav {
-    gap: 2rem;
-    font-size: 1rem;
-  }
-
-  .social-icons {
-    gap: 1rem;
-  }
-}
-
-/* ----------------------------- */
-/* ✅ Large Desktops: ≥1280px */
-/* ----------------------------- */
-
-@media screen and (min-width: 1280px) {
-  .header-container {
-    max-width: 1200px;
-    padding: 0 2rem;
-  }
-
-  .logo {
-    font-size: 1.5rem;
-  }
-
-  .nav {
-    gap: 2.5rem;
-  }
-}
-
 /* ----------------------------- */
 /* About Section */
 /* ----------------------------- */
@@ -2725,143 +2607,6 @@ a {
   border-radius: 50%;
 }
 
-/* ----------------------------- */
-/* ✅ Mobile: 300px to 600px (focus: 360px) */
-/* ----------------------------- */
-
-@media screen and (max-width: 600px) {
-  .about-container {
-    flex-direction: column-reverse;
-    text-align: center;
-    gap: 2rem;
-  }
-
-  .about-text {
-    max-width: 100%;
-  }
-
-  .image-wrapper {
-    width: 220px;
-    height: 220px;
-  }
-
-  .greeting {
-    font-size: 1.1rem;
-  }
-
-  .name {
-    font-size: 1.4rem;
-  }
-
-  .role {
-    font-size: 1.1rem;
-  }
-
-  .description {
-    font-size: 0.95rem;
-    padding: 0 0.5rem;
-  }
-
-  .cv-button {
-    font-size: 0.85rem;
-    padding: 0.65rem 1.3rem;
-  }
-}
-
-/* ----------------------------- */
-/* ✅ Tablets: 601px to 1023px */
-/* ----------------------------- */
-
-@media screen and (min-width: 601px) and (max-width: 1023px) {
-  .about-container {
-    flex-direction: column-reverse;
-    gap: 2.5rem;
-    text-align: center;
-  }
-
-  .image-wrapper {
-    width: 300px;
-    height: 300px;
-  }
-
-  .greeting {
-    font-size: 1.5rem;
-  }
-
-  .name {
-    font-size: 2rem;
-  }
-
-  .role {
-    font-size: 1.4rem;
-  }
-
-  .description {
-    font-size: 1rem;
-    padding: 0 2rem;
-  }
-
-  .cv-button {
-    font-size: 0.95rem;
-    padding: 0.7rem 1.7rem;
-  }
-}
-
-/* ----------------------------- */
-/* ✅ Small Desktops: 1024px to 1279px */
-/* ----------------------------- */
-
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .about-container {
-    flex-direction: row;
-    gap: 2.5rem;
-  }
-
-  .image-wrapper {
-    width: 340px;
-    height: 340px;
-  }
-
-  .name {
-    font-size: 2.3rem;
-  }
-
-  .role {
-    font-size: 1.6rem;
-  }
-
-  .description {
-    font-size: 1.05rem;
-  }
-}
-
-/* ----------------------------- */
-/* ✅ Large Desktops: 1280px and up */
-/* ----------------------------- */
-
-@media screen and (min-width: 1280px) {
-  .about-container {
-    flex-direction: row;
-  }
-
-  .image-wrapper {
-    width: 400px;
-    height: 400px;
-  }
-
-  .name {
-    font-size: 2.5rem;
-  }
-
-  .role {
-    font-size: 1.75rem;
-  }
-
-  .description {
-    font-size: 1.1rem;
-  }
-}
-
 
 /* ----------------------------- */
 /* Education Section */
@@ -2918,7 +2663,7 @@ a {
   }
 }
 /* ----------------------------- */
-/* Projects Section  */
+/* Projects Section */
 /* ----------------------------- */
 :root {
   --color-accent: #8245ec;
@@ -3012,14 +2757,14 @@ a {
 }
 
 .project-content h3 {
-  font-size: 1.25rem;
+  font-size: 1.35rem;
   color: var(--color-accent);
   margin-bottom: 0.5rem;
   transition: color var(--transition-speed);
 }
 
 .project-content p {
-  font-size: 0.95rem;
+  font-size: 1rem;
   color: var(--color-muted);
   line-height: 1.5;
   margin-bottom: 0.75rem;
@@ -3096,91 +2841,6 @@ a {
 }
 
 /* ----------------------------- */
-/* Responsive Media Queries */
-/* ----------------------------- */
-
-/* Mobile (300px–600px) */
-@media screen and (max-width: 600px) {
-  .projects-header h2 {
-    font-size: 1.8rem;
-  }
-
-  .projects-header .description {
-    font-size: 0.9rem;
-  }
-
-  .project-content h3 {
-    font-size: 1.1rem;
-  }
-
-  .project-content p {
-    font-size: 0.9rem;
-  }
-
-  .project-image img {
-    height: 180px;
-  }
-
-  .tech-badge {
-    font-size: 0.7rem;
-  }
-
-  .project-link {
-    font-size: 0.9rem;
-  }
-}
-
-/* Tablet (601px–1023px) */
-@media screen and (min-width: 601px) and (max-width: 1023px) {
-  .projects-header h2 {
-    font-size: 2.2rem;
-  }
-
-  .project-content h3 {
-    font-size: 1.2rem;
-  }
-
-  .project-content p {
-    font-size: 0.95rem;
-  }
-
-  .project-image img {
-    height: 190px;
-  }
-}
-
-/* Small Desktops (1024px–1279px) */
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .project-image img {
-    height: 200px;
-  }
-
-  .project-content h3 {
-    font-size: 1.3rem;
-  }
-
-  .project-content p {
-    font-size: 1rem;
-  }
-}
-
-/* Large Desktops (≥1280px) */
-@media screen and (min-width: 1280px) {
-  .projects-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .project-image img {
-    height: 220px;
-  }
-
-  .project-content h3 {
-    font-size: 1.35rem;
-  }
-}
-
-
-/* ----------------------------- */
 /* Skills Section */
 /* ----------------------------- */
 
@@ -3217,7 +2877,7 @@ a {
 
 .skills-header h2 {
   color: white;
-  font-size: 1.75rem;
+  font-size: 2.25rem;
   font-weight: bold;
   letter-spacing: 1px;
   transition: color var(--transition);
@@ -3245,22 +2905,10 @@ a {
 /* Grid Layout */
 .skills-container {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
   padding-top: 3rem;
   animation: fadeInUp 0.8s ease-out;
-}
-
-@media (min-width: 601px) {
-  .skills-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (min-width: 1024px) {
-  .skills-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
 
 /* Skill Card */
@@ -3294,7 +2942,7 @@ a {
 .skill-card h3 {
   color: var(--color-muted);
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   margin-bottom: 1rem;
   transition: color var(--transition);
 }
@@ -3302,14 +2950,8 @@ a {
 /* Grid of Skills Inside Card */
 .skill-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 0.75rem;
-}
-
-@media (min-width: 601px) {
-  .skill-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
 }
 
 /* Skill Item */
@@ -3332,8 +2974,8 @@ a {
 }
 
 .skill-item img {
-  width: 28px;
-  height: 28px;
+  width: 40px;
+  height: 40px;
   transition: transform var(--transition);
 }
 
@@ -3343,44 +2985,9 @@ a {
 
 .skill-item span {
   margin-top: 0.25rem;
-  font-size: 0.7rem;
+  font-size: 0.875rem;
   color: var(--color-muted);
   transition: color var(--transition);
-}
-
-/* Responsive Adjustments */
-@media (min-width: 601px) {
-  .skills-header h2 {
-    font-size: 2rem;
-  }
-
-  .skill-item img {
-    width: 36px;
-    height: 36px;
-  }
-
-  .skill-item span {
-    font-size: 0.8rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .skills-header h2 {
-    font-size: 2.25rem;
-  }
-
-  .skill-card h3 {
-    font-size: 1.75rem;
-  }
-
-  .skill-item img {
-    width: 40px;
-    height: 40px;
-  }
-
-  .skill-item span {
-    font-size: 0.875rem;
-  }
 }
 
 /* ----------------------------- */
@@ -3429,18 +3036,6 @@ a {
   font-family: 'Poppins', sans-serif;
 }
 
-@media (min-width: 601px) {
-  .certifications-section {
-    padding: 6rem 4rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .certifications-section {
-    padding: 6rem 8vw;
-  }
-}
-
 /* Heading */
 .certifications-heading {
   text-align: center;
@@ -3464,28 +3059,11 @@ a {
   margin-right: auto;
 }
 
-@media (min-width: 768px) {
-  .certifications-heading h2 {
-    font-size: 2.5rem;
-  }
-
-  .certifications-heading p {
-    font-size: 1.1rem;
-  }
-}
-
 /* Grid Layout */
 .cert-grid {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
-}
-
-@media (min-width: 600px) {
-  .cert-grid {
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 2.5rem;
-  }
 }
 
 /* Card */
@@ -3528,6 +3106,8 @@ a {
   color: var(--color-text);
   text-decoration: underline;
 }
+
+
 /* ----------------------------- */
 /* Achievements Section */
 /* ----------------------------- */
@@ -3629,55 +3209,5 @@ a {
   to {
     opacity: 1;
     transform: translateY(0);
-  }
-}
-
-/* ----------------------------- */
-/* Responsive Design */
-/* ----------------------------- */
-
-/* Mobile: 300px to 600px */
-@media (max-width: 600px) {
-  #achievements {
-    padding: 3.5rem 1rem;
-  }
-
-  #achievements li {
-    padding: 1rem 1.25rem;
-    font-size: 0.9rem;
-  }
-}
-
-/* Tablets: 601px to 1023px */
-@media (min-width: 601px) and (max-width: 1023px) {
-  #achievements {
-    padding: 4.5rem 2rem;
-  }
-
-  #achievements li {
-    font-size: 1rem;
-    padding: 1.2rem 1.5rem;
-  }
-}
-
-/* Small desktops: 1024px to 1279px */
-@media (min-width: 1024px) and (max-width: 1279px) {
-  #achievements {
-    padding: 5rem 4rem;
-  }
-
-  #achievements li {
-    font-size: 1rem;
-  }
-}
-
-/* Large desktops: 1280px and up */
-@media (min-width: 1280px) {
-  #achievements {
-    padding: 6rem 6rem;
-  }
-
-  #achievements li {
-    font-size: 1.05rem;
   }
 }
